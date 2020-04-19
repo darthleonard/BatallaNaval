@@ -90,7 +90,7 @@ public class BatallaNaval extends JFrame{
         cerrarConeccion.setEnabled(false);
         ConectarOtroUsuario.setEnabled(false);
         setVisible(true);
-        setSize(500, 500);
+        setSize(510, 500);
         Escuchadores();
         checa = new Coneccion(null, null, WIDTH);
     }
